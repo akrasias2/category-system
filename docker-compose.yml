@@ -1,0 +1,13 @@
+version: '3.9'
+services:
+  postgresql:
+    image: "postgres:13.4-alpine"
+    container_name: postgres
+    environment:
+      POSTGRES_USER: tester
+      POSTGRES_PASSWORD: tester
+      POSTGRES_DB: testdb
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./init-local-ddl.sql:/docker-entrypoint-initdb.d/init-local-ddl.sql

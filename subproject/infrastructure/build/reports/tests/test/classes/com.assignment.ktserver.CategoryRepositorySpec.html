@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - CategoryRepositorySpec</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>CategoryRepositorySpec</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.assignment.ktserver.html">com.assignment.ktserver</a> &gt; CategoryRepositorySpec</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.589s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">카테고리 리소스 삭제()</td>
+<td class="success">0.261s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">카테고리 메타 정보 업데이트()</td>
+<td class="success">0.159s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">카테고리 부모 등록()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">카테고리 부모-자식 관계 list 찾기()</td>
+<td class="success">0.143s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">카테고리 생성 및 단건 찾기()</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">카테고리 전체 list 찾기()</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>16:16:29.577 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+16:16:29.582 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+16:16:29.610 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.assignment.ktserver.CategoryRepositorySpec] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+16:16:29.620 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.assignment.ktserver.CategoryRepositorySpec], using SpringBootContextLoader
+16:16:29.622 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.assignment.ktserver.CategoryRepositorySpec]: class path resource [com/assignment/ktserver/CategoryRepositorySpec-context.xml] does not exist
+16:16:29.622 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.assignment.ktserver.CategoryRepositorySpec]: class path resource [com/assignment/ktserver/CategoryRepositorySpecContext.groovy] does not exist
+16:16:29.623 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.assignment.ktserver.CategoryRepositorySpec]: no resource found for suffixes {-context.xml, Context.groovy}.
+16:16:29.657 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.assignment.ktserver.CategoryRepositorySpec]
+16:16:29.740 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.assignment.ktserver.CategoryRepositorySpec]: using defaults.
+16:16:29.741 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+16:16:29.746 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom listener classes or make the default listener classes and their required dependencies available. Offending class: [javax/servlet/ServletContext]
+16:16:29.751 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@622d7e4, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6a3fbcb1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@261b9a37, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@15d3793b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@55e1192, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1213ffbc, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@68a305eb, org.springframework.test.context.event.EventPublishingTestExecutionListener@6637a365, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1310fcb0, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1ef31f71, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@6e8fdd19, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@35787726, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2199e845, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@27976390]
+16:16:29.754 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@3d3a1903 testClass = CategoryRepositorySpec, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [ReactiveWebMergedContextConfiguration@26582ca testClass = CategoryRepositorySpec, locations = '{}', classes = '{class com.assignment.ktserver.TestApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@7945b206, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@71179b6f, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@7ca16adc, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@5cff6b74, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@706ceca6, org.springframework.boot.test.web.reactive.server.WebTestClientContextCustomizer@41b64020, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@72b16078], contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.7.8)
+
+2023-02-05 16:16:30.007  INFO 31628 --- [    Test worker] c.a.ktserver.CategoryRepositorySpec      : Starting CategoryRepositorySpec using Java 17.0.6 on BingBong-EX-MAC-2.local with PID 31628 (started by bingbong-mac in /Users/bingbong_1/devBingBong/new-kt-server/subproject/infrastructure)
+2023-02-05 16:16:30.008  INFO 31628 --- [    Test worker] c.a.ktserver.CategoryRepositorySpec      : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2023-02-05 16:16:30.427  INFO 31628 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2023-02-05 16:16:30.435  INFO 31628 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 R2DBC repository interfaces.
+2023-02-05 16:16:30.673  INFO 31628 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data R2DBC repositories in DEFAULT mode.
+2023-02-05 16:16:30.684  INFO 31628 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 R2DBC repository interfaces.
+2023-02-05 16:16:31.270  INFO 31628 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2023-02-05 16:16:31.656  INFO 31628 --- [    Test worker] c.a.ktserver.CategoryRepositorySpec      : Started CategoryRepositorySpec in 1.879 seconds (JVM running for 6.624)
+2023-02-05 16:16:32.076  INFO 31628 --- [ @coroutine#102] c.a.ktserver.CategoryRepositorySpec      : [CategoryEntity(id=q1Du5xxcGk1t9Q7esSWXLshxFUs42V4W, parentId=zFCgxexU4Ka5fTIIIIwN70XpwyQVm7B4, name=TestCategory50), CategoryEntity(id=fRz2FPxvVhCVF4BoX4YOTqEbvnXsQnwx, parentId=q1Du5xxcGk1t9Q7esSWXLshxFUs42V4W, name=TestCategory51), CategoryEntity(id=YcPII6ZXynF4RL8LQoTEqwFZpPRY9kbj, parentId=fRz2FPxvVhCVF4BoX4YOTqEbvnXsQnwx, name=TestCategory52), CategoryEntity(id=l64FxVSY9Vyblcno0VWwybFm08o47pty, parentId=YcPII6ZXynF4RL8LQoTEqwFZpPRY9kbj, name=TestCategory53), CategoryEntity(id=0Co19DXxuxkEMYkCMZg6hZg2ulScG2qe, parentId=l64FxVSY9Vyblcno0VWwybFm08o47pty, name=TestCategory54), CategoryEntity(id=lUmiVpDcsXEnEJuyLNhtRqMebunC8lCe, parentId=0Co19DXxuxkEMYkCMZg6hZg2ulScG2qe, name=TestCategory55), CategoryEntity(id=3375aGOdWMYQysNjGeMfIbNXq20MxKRT, parentId=lUmiVpDcsXEnEJuyLNhtRqMebunC8lCe, name=TestCategory56), CategoryEntity(id=y8B8BxCZoPGVIYXrtvmSkrMkZz60YsYn, parentId=3375aGOdWMYQysNjGeMfIbNXq20MxKRT, name=TestCategory57), CategoryEntity(id=3hFND3NE2EXVG2pZ8Z6aSeLGQzWp1Nhr, parentId=y8B8BxCZoPGVIYXrtvmSkrMkZz60YsYn, name=TestCategory58), CategoryEntity(id=vhRAuP5FcRnxPwT8LBX6TMV4Aqi6vF5A, parentId=3hFND3NE2EXVG2pZ8Z6aSeLGQzWp1Nhr, name=TestCategory59), CategoryEntity(id=O0E0HFFYvEFGxR5DoX4xax9qzNQGYmTg, parentId=vhRAuP5FcRnxPwT8LBX6TMV4Aqi6vF5A, name=TestCategory60), CategoryEntity(id=s7XArflShRzhDsoDig6l4Hd39IOgDIqf, parentId=O0E0HFFYvEFGxR5DoX4xax9qzNQGYmTg, name=TestCategory61), CategoryEntity(id=8SHU6IU4VOkZ8bsvN0K4ruThHf7vfrtu, parentId=s7XArflShRzhDsoDig6l4Hd39IOgDIqf, name=TestCategory62), CategoryEntity(id=mazlVhZXL5YdapvzqDhmE6FekehrScwn, parentId=8SHU6IU4VOkZ8bsvN0K4ruThHf7vfrtu, name=TestCategory63), CategoryEntity(id=Uplu6v5mdXn0VbSQCvwXjJQWnBZU6qsd, parentId=mazlVhZXL5YdapvzqDhmE6FekehrScwn, name=TestCategory64), CategoryEntity(id=PrCHcyZHqc2YOyClxj6eG7TUxLutpHSU, parentId=Uplu6v5mdXn0VbSQCvwXjJQWnBZU6qsd, name=TestCategory65), CategoryEntity(id=etc9fziQ1ksYfesINnYIymHFbiPhgInc, parentId=PrCHcyZHqc2YOyClxj6eG7TUxLutpHSU, name=TestCategory66), CategoryEntity(id=lmVBctvNDpAJxqfjC6RyRHdcNvnsmsnl, parentId=etc9fziQ1ksYfesINnYIymHFbiPhgInc, name=TestCategory67), CategoryEntity(id=oqUTjC0WFPV5FRglSjy7tXzf46h38zcQ, parentId=lmVBctvNDpAJxqfjC6RyRHdcNvnsmsnl, name=TestCategory68), CategoryEntity(id=FPYB7RidtKfnrAC9Yx9RRk3DVEGx8ug4, parentId=oqUTjC0WFPV5FRglSjy7tXzf46h38zcQ, name=TestCategory69), CategoryEntity(id=LmZ7fWnp1qQVaksmzGRrVWo0inAkC3CR, parentId=FPYB7RidtKfnrAC9Yx9RRk3DVEGx8ug4, name=TestCategory70), CategoryEntity(id=qPqUw6AVbgKcBLBNtTwrSk2yM0pJJTZQ, parentId=LmZ7fWnp1qQVaksmzGRrVWo0inAkC3CR, name=TestCategory71), CategoryEntity(id=7ljCVepk3UWE523fcQ4Z7pmJEU0xGQia, parentId=qPqUw6AVbgKcBLBNtTwrSk2yM0pJJTZQ, name=TestCategory72), CategoryEntity(id=qdtKPe3xkhjY6ER3gqf2xrC60C79iT7q, parentId=7ljCVepk3UWE523fcQ4Z7pmJEU0xGQia, name=TestCategory73), CategoryEntity(id=28YydVFuCfHZXPB0C4w9r2BJUEj4k7t5, parentId=qdtKPe3xkhjY6ER3gqf2xrC60C79iT7q, name=TestCategory74), CategoryEntity(id=jl9h2yRBjD9RDREuE4k3qiPfT3W1t1hD, parentId=28YydVFuCfHZXPB0C4w9r2BJUEj4k7t5, name=TestCategory75), CategoryEntity(id=b3JLsh1LRMsWvb7IZfnOjvAWs6gtYi9Q, parentId=jl9h2yRBjD9RDREuE4k3qiPfT3W1t1hD, name=TestCategory76), CategoryEntity(id=DDgMhIQ4WBeNUflYO3dyCxM1TwFBnPMQ, parentId=b3JLsh1LRMsWvb7IZfnOjvAWs6gtYi9Q, name=TestCategory77), CategoryEntity(id=DrKYJyiGfd7qLdgUK9Jp3OigLwjxWfcP, parentId=DDgMhIQ4WBeNUflYO3dyCxM1TwFBnPMQ, name=TestCategory78), CategoryEntity(id=FMAjv4DXunt2wrGc4u6j2PXCRnOI5jDC, parentId=DrKYJyiGfd7qLdgUK9Jp3OigLwjxWfcP, name=TestCategory79), CategoryEntity(id=tKSAZuIjhAK93Fg87J7Aq1SjugKJYDYA, parentId=FMAjv4DXunt2wrGc4u6j2PXCRnOI5jDC, name=TestCategory80), CategoryEntity(id=ety1gCRdXQzObd9e7aSHOG7UCL3O0nNp, parentId=tKSAZuIjhAK93Fg87J7Aq1SjugKJYDYA, name=TestCategory81), CategoryEntity(id=3cOIbAEC694etimnc45i5rl1P7Rqqiem, parentId=ety1gCRdXQzObd9e7aSHOG7UCL3O0nNp, name=TestCategory82), CategoryEntity(id=vUWcDQduMrFoS25izj5T4R6KiRguS1rS, parentId=3cOIbAEC694etimnc45i5rl1P7Rqqiem, name=TestCategory83), CategoryEntity(id=g1n0FPt3c0J6wmtjeQEfxfZ49O8kaLnR, parentId=vUWcDQduMrFoS25izj5T4R6KiRguS1rS, name=TestCategory84), CategoryEntity(id=nUMmrW8CuiiRDI60LmqIjO2S3K6Zgt7i, parentId=g1n0FPt3c0J6wmtjeQEfxfZ49O8kaLnR, name=TestCategory85), CategoryEntity(id=W6WUGAhdcgou6RCy6Q4ZndpY33EHRMJ8, parentId=nUMmrW8CuiiRDI60LmqIjO2S3K6Zgt7i, name=TestCategory86), CategoryEntity(id=txq36hPasHhIbED7WV2CmGgZ22Yr1wSM, parentId=W6WUGAhdcgou6RCy6Q4ZndpY33EHRMJ8, name=TestCategory87), CategoryEntity(id=ZyvFJOQfkjG5GDtwQJhKCqqqwMAgf7CQ, parentId=txq36hPasHhIbED7WV2CmGgZ22Yr1wSM, name=TestCategory88), CategoryEntity(id=N8GzetO7ANrRlKO7Q77QhSb4GPfXVqWN, parentId=ZyvFJOQfkjG5GDtwQJhKCqqqwMAgf7CQ, name=TestCategory89), CategoryEntity(id=v6tm6b4JWY5C4N561oJsTmWjoa6tS3Mk, parentId=N8GzetO7ANrRlKO7Q77QhSb4GPfXVqWN, name=TestCategory90), CategoryEntity(id=W6etl9GcdLlA3pMICjWU3ouayITjIfBx, parentId=v6tm6b4JWY5C4N561oJsTmWjoa6tS3Mk, name=TestCategory91), CategoryEntity(id=WFOOVlhrBjBKNi9PQelpWvNgmLOY7jnD, parentId=W6etl9GcdLlA3pMICjWU3ouayITjIfBx, name=TestCategory92), CategoryEntity(id=8b0U11SJTyKQi1bh6qCjL4jVS5o9Aszq, parentId=WFOOVlhrBjBKNi9PQelpWvNgmLOY7jnD, name=TestCategory93), CategoryEntity(id=sCnXuEd3f7Qfr3vX53b5jBJPEZfM58kD, parentId=8b0U11SJTyKQi1bh6qCjL4jVS5o9Aszq, name=TestCategory94), CategoryEntity(id=t6uOMkQ60d1koULZdUIkprdamrEkt7HW, parentId=sCnXuEd3f7Qfr3vX53b5jBJPEZfM58kD, name=TestCategory95), CategoryEntity(id=HHMQ9DC0dp8XBdNKiuXNn55tE0LpfK5m, parentId=t6uOMkQ60d1koULZdUIkprdamrEkt7HW, name=TestCategory96), CategoryEntity(id=E26AvcCXRJxuGY6apobvLUbXMI0fntUO, parentId=HHMQ9DC0dp8XBdNKiuXNn55tE0LpfK5m, name=TestCategory97), CategoryEntity(id=B4GhXS3Tbt9XKS4qTwCIu7jQm220OOvE, parentId=E26AvcCXRJxuGY6apobvLUbXMI0fntUO, name=TestCategory98), CategoryEntity(id=ucqgGyv9UrVwcfH9zgKp1hsGQwyx17E7, parentId=B4GhXS3Tbt9XKS4qTwCIu7jQm220OOvE, name=TestCategory99)]
+2023-02-05 16:16:32.083  INFO 31628 --- [ @coroutine#102] c.a.ktserver.CategoryRepositorySpec      : 50
+2023-02-05 16:16:32.089  INFO 31628 --- [ @coroutine#102] c.a.ktserver.CategoryRepositorySpec      : [CategoryEntity(id=v7CCHxBCZyvcD5AHvurdhiRruuz6Ez5k, parentId=null, name=TestCategory0), CategoryEntity(id=hcZYnlYQZsgm6Z1tisldsg0OR36zFWTv, parentId=v7CCHxBCZyvcD5AHvurdhiRruuz6Ez5k, name=TestCategory1), CategoryEntity(id=DBCvhWh0ndCRJOS85GOZ9ZiX5dZ4F7PE, parentId=hcZYnlYQZsgm6Z1tisldsg0OR36zFWTv, name=TestCategory2), CategoryEntity(id=UaaXCObW0D9aWQQPSVmZDUgNtMevnRtp, parentId=DBCvhWh0ndCRJOS85GOZ9ZiX5dZ4F7PE, name=TestCategory3), CategoryEntity(id=ub2JGVeXVEoIoRyt4EtjQ4CzwKqAw9nF, parentId=UaaXCObW0D9aWQQPSVmZDUgNtMevnRtp, name=TestCategory4), CategoryEntity(id=GHYRuAOgmdjBYrNm38Bx5DkHFfXiaks4, parentId=ub2JGVeXVEoIoRyt4EtjQ4CzwKqAw9nF, name=TestCategory5), CategoryEntity(id=zlNEYj4x4DDp6Kpur5hgR9mB7yzoUkBo, parentId=GHYRuAOgmdjBYrNm38Bx5DkHFfXiaks4, name=TestCategory6), CategoryEntity(id=qOnARgJAgbLBVkeoJ9pY2nGsY3UeSoel, parentId=zlNEYj4x4DDp6Kpur5hgR9mB7yzoUkBo, name=TestCategory7), CategoryEntity(id=Kf2g8NasFreUxhbKYtRwh49zq1EFpJot, parentId=qOnARgJAgbLBVkeoJ9pY2nGsY3UeSoel, name=TestCategory8), CategoryEntity(id=0OFX0KnVDpj0ZXFcOur8cr3TVIxzv5Ki, parentId=Kf2g8NasFreUxhbKYtRwh49zq1EFpJot, name=TestCategory9), CategoryEntity(id=YLwRuSGJuO5iAy5St8o6Dm31Vdzwwo4m, parentId=0OFX0KnVDpj0ZXFcOur8cr3TVIxzv5Ki, name=TestCategory10), CategoryEntity(id=wMPM340zi6YBs5VL56sZmO2JQVupnomi, parentId=YLwRuSGJuO5iAy5St8o6Dm31Vdzwwo4m, name=TestCategory11), CategoryEntity(id=6VUXHbvx8mBdNyaCvX4yz1ONuHjrjAuM, parentId=wMPM340zi6YBs5VL56sZmO2JQVupnomi, name=TestCategory12), CategoryEntity(id=P4gO41tvP6ezsrpxE7GVlgHo6DBGm9wS, parentId=6VUXHbvx8mBdNyaCvX4yz1ONuHjrjAuM, name=TestCategory13), CategoryEntity(id=AebgJfPzlp0saBr7Xf8ZpyCSo4UHSdah, parentId=P4gO41tvP6ezsrpxE7GVlgHo6DBGm9wS, name=TestCategory14), CategoryEntity(id=JMa0iCiupUHBWVqq1EEXNI3KJ1dfMRJ9, parentId=AebgJfPzlp0saBr7Xf8ZpyCSo4UHSdah, name=TestCategory15), CategoryEntity(id=81Hlwjdr3lZtTZjBzuIQAS520dXOYPke, parentId=JMa0iCiupUHBWVqq1EEXNI3KJ1dfMRJ9, name=TestCategory16), CategoryEntity(id=PvVXsC5m4b9ZJy1UYD8Y51R2qkFvUMLH, parentId=81Hlwjdr3lZtTZjBzuIQAS520dXOYPke, name=TestCategory17), CategoryEntity(id=dAOcOsoXoK5h0jxZJDmmh67Ij44qGmzf, parentId=PvVXsC5m4b9ZJy1UYD8Y51R2qkFvUMLH, name=TestCategory18), CategoryEntity(id=Zx5aC48ScFUQOBVImjPjang2k0S7xSK9, parentId=dAOcOsoXoK5h0jxZJDmmh67Ij44qGmzf, name=TestCategory19), CategoryEntity(id=GXBulmYjhPX306qRlUD93FMfih09s4Ly, parentId=Zx5aC48ScFUQOBVImjPjang2k0S7xSK9, name=TestCategory20), CategoryEntity(id=6pgBfI17SkZgYnw9ffcKW5AFYpKNIAYB, parentId=GXBulmYjhPX306qRlUD93FMfih09s4Ly, name=TestCategory21), CategoryEntity(id=YPNYwmjOl5cgBDk9FyX4VmsUzwRyThnH, parentId=6pgBfI17SkZgYnw9ffcKW5AFYpKNIAYB, name=TestCategory22), CategoryEntity(id=WtaLZbpMU8Rg2OeU1uSG3p0Fo1R73Ror, parentId=YPNYwmjOl5cgBDk9FyX4VmsUzwRyThnH, name=TestCategory23), CategoryEntity(id=Q5tOgU7AxTEUxVS4cqBznAW0H0k7LmFg, parentId=WtaLZbpMU8Rg2OeU1uSG3p0Fo1R73Ror, name=TestCategory24), CategoryEntity(id=hsxaDAVXjexkHnF3gMABpzvg3QiS4FKw, parentId=Q5tOgU7AxTEUxVS4cqBznAW0H0k7LmFg, name=TestCategory25), CategoryEntity(id=p0H1BpwMJFich3ihr0NWycbN9sp7Ox2w, parentId=hsxaDAVXjexkHnF3gMABpzvg3QiS4FKw, name=TestCategory26), CategoryEntity(id=dB3dTE8Bf2AYlko9pcc9X4t843BTDgsS, parentId=p0H1BpwMJFich3ihr0NWycbN9sp7Ox2w, name=TestCategory27), CategoryEntity(id=t1nUa7va88yT5JSr7fkc3b7VhOnZl6DZ, parentId=dB3dTE8Bf2AYlko9pcc9X4t843BTDgsS, name=TestCategory28), CategoryEntity(id=hqEFfDdboTRAn8b7O6Sm8c1Yc6eb0s1T, parentId=t1nUa7va88yT5JSr7fkc3b7VhOnZl6DZ, name=TestCategory29), CategoryEntity(id=wzDMhUbFXIloOkRUIkfsVzODTDn4az0A, parentId=hqEFfDdboTRAn8b7O6Sm8c1Yc6eb0s1T, name=TestCategory30), CategoryEntity(id=q7FM4TcOMmsoQIJxRH6RbbzBLizVtqY5, parentId=wzDMhUbFXIloOkRUIkfsVzODTDn4az0A, name=TestCategory31), CategoryEntity(id=GqTEPbIFdwuRWNMPEJnf552Uh4CSzW7z, parentId=q7FM4TcOMmsoQIJxRH6RbbzBLizVtqY5, name=TestCategory32), CategoryEntity(id=qttMS9W2WMSo2wQGtQLTgzkk2sX7OTPJ, parentId=GqTEPbIFdwuRWNMPEJnf552Uh4CSzW7z, name=TestCategory33), CategoryEntity(id=7zguwyUrjKr1SepC0r8LqjrBKVFtrZCt, parentId=qttMS9W2WMSo2wQGtQLTgzkk2sX7OTPJ, name=TestCategory34), CategoryEntity(id=aIMzKdGoiVbL7bQK3m56zpmyYaMqwPDt, parentId=7zguwyUrjKr1SepC0r8LqjrBKVFtrZCt, name=TestCategory35), CategoryEntity(id=QRDT7D5TktKJ7CxaGMnSjVKtAw4SmV8B, parentId=aIMzKdGoiVbL7bQK3m56zpmyYaMqwPDt, name=TestCategory36), CategoryEntity(id=h3LM1QZFPhTQJyp1qSrdicQZPsxPDuoE, parentId=QRDT7D5TktKJ7CxaGMnSjVKtAw4SmV8B, name=TestCategory37), CategoryEntity(id=MntkXJP2IlrXvL3YrVHEa8dCgSlLNMNe, parentId=h3LM1QZFPhTQJyp1qSrdicQZPsxPDuoE, name=TestCategory38), CategoryEntity(id=dBfk3vIxMUCG8ppxDbzanaM3fbJqOT2R, parentId=MntkXJP2IlrXvL3YrVHEa8dCgSlLNMNe, name=TestCategory39), CategoryEntity(id=qtsY3yZZdm8MeWX6qyYddjloKW9lK1Rd, parentId=dBfk3vIxMUCG8ppxDbzanaM3fbJqOT2R, name=TestCategory40), CategoryEntity(id=TKR1eXlSyYwCnA47K6n997sO15IKASB1, parentId=qtsY3yZZdm8MeWX6qyYddjloKW9lK1Rd, name=TestCategory41), CategoryEntity(id=soY2wAJQvm9gitXgRlEidIaY9q2nRsE9, parentId=TKR1eXlSyYwCnA47K6n997sO15IKASB1, name=TestCategory42), CategoryEntity(id=nJf0qI29D6dvilWrUmQXMWPSX96UIC1Y, parentId=soY2wAJQvm9gitXgRlEidIaY9q2nRsE9, name=TestCategory43), CategoryEntity(id=vrqWlTWcfqs6UPsgOcqaALauKZUGYzJl, parentId=nJf0qI29D6dvilWrUmQXMWPSX96UIC1Y, name=TestCategory44), CategoryEntity(id=m4ztxpo0sFUgQUuFIiubqsTbnlnEe9PA, parentId=vrqWlTWcfqs6UPsgOcqaALauKZUGYzJl, name=TestCategory45), CategoryEntity(id=tPfJalPQ5cG2KUQrpBekt4o9u3M4Tdnp, parentId=m4ztxpo0sFUgQUuFIiubqsTbnlnEe9PA, name=TestCategory46), CategoryEntity(id=U13YGLgIHVHTNBbG5dt6ZNhrUswvjMFv, parentId=tPfJalPQ5cG2KUQrpBekt4o9u3M4Tdnp, name=TestCategory47), CategoryEntity(id=VH7cIdlcI2daWoZwU4i5dreqvmjiPu6M, parentId=U13YGLgIHVHTNBbG5dt6ZNhrUswvjMFv, name=TestCategory48), CategoryEntity(id=zFCgxexU4Ka5fTIIIIwN70XpwyQVm7B4, parentId=VH7cIdlcI2daWoZwU4i5dreqvmjiPu6M, name=TestCategory49)]
+2023-02-05 16:16:32.120  INFO 31628 --- [ @coroutine#313] c.a.ktserver.CategoryRepositorySpec      : [CategoryEntity(id=jK7UD7boLL8Sk3P2opJZmQcm4KXOjKV4, parentId=null, name=TestCategory0), CategoryEntity(id=LY230hfF7MwUTnAAWVhIJWXqycCXFM1B, parentId=null, name=TestCategoryAdd1), CategoryEntity(id=oWRcm9s5V1gbtxtKYRLnSrab6RIKj1TW, parentId=null, name=TestCategoryAdd2), CategoryEntity(id=eV5jUFCHJpwgrn2snjltIh3Vw5W1bWiC, parentId=jK7UD7boLL8Sk3P2opJZmQcm4KXOjKV4, name=TestCategory1), CategoryEntity(id=hG7FpxuNeVAt91lcv9hlxxrtXA5nO7np, parentId=eV5jUFCHJpwgrn2snjltIh3Vw5W1bWiC, name=TestCategory2)]
+2023-02-05 16:16:32.264  INFO 31628 --- [ @coroutine#322] c.a.ktserver.CategoryRepositorySpec      : [CategoryEntity(id=aWujDtKq9akQXGV2JU2C1iZEdmFaZdlQ, parentId=eUrXle0a20KeGmPO7oMcjnpIxKTgKmxD, name=TestCategory50), CategoryEntity(id=9awAu2hSgyX3e9BQa19pJIzEkXp5c3W5, parentId=aWujDtKq9akQXGV2JU2C1iZEdmFaZdlQ, name=TestCategory51), CategoryEntity(id=U6qNdM265zFyFzh92mNjqGJLiWWQl290, parentId=9awAu2hSgyX3e9BQa19pJIzEkXp5c3W5, name=TestCategory52), CategoryEntity(id=HAU7EwKSEze3KoNFWae71btT3a1xK6Jo, parentId=U6qNdM265zFyFzh92mNjqGJLiWWQl290, name=TestCategory53), CategoryEntity(id=svxrZEQiDg6dodMKcvd7zHGq8LwFJe7Q, parentId=HAU7EwKSEze3KoNFWae71btT3a1xK6Jo, name=TestCategory54), CategoryEntity(id=KCTFEO8y6xN9DvJlyR908kKXjClWAgPk, parentId=svxrZEQiDg6dodMKcvd7zHGq8LwFJe7Q, name=TestCategory55), CategoryEntity(id=ri6TLvj7H1cIyE2NtKarbKt90Huz4kij, parentId=KCTFEO8y6xN9DvJlyR908kKXjClWAgPk, name=TestCategory56), CategoryEntity(id=LtMORG73la9O2xt9UVy6dUALOSNRMN6m, parentId=ri6TLvj7H1cIyE2NtKarbKt90Huz4kij, name=TestCategory57), CategoryEntity(id=zbLEgONtMW99Kt1a2gEhtwvPUeTvKbo5, parentId=LtMORG73la9O2xt9UVy6dUALOSNRMN6m, name=TestCategory58), CategoryEntity(id=1zS3WDrackvrKeEjn1bnGEMw4vAdkK2j, parentId=zbLEgONtMW99Kt1a2gEhtwvPUeTvKbo5, name=TestCategory59), CategoryEntity(id=ifUpJCY7QHu73Zl7ZIKtny1Ppqou6VAm, parentId=1zS3WDrackvrKeEjn1bnGEMw4vAdkK2j, name=TestCategory60), CategoryEntity(id=N6AYR714PW1BgVCdjnxJImwoNeJ8PYZk, parentId=ifUpJCY7QHu73Zl7ZIKtny1Ppqou6VAm, name=TestCategory61), CategoryEntity(id=I9FcDwcDGGovpsbWIKhWR0VnqTMZDALs, parentId=N6AYR714PW1BgVCdjnxJImwoNeJ8PYZk, name=TestCategory62), CategoryEntity(id=gnjTjPpbXkC5McUAp3KuLnRubtfxAOs7, parentId=I9FcDwcDGGovpsbWIKhWR0VnqTMZDALs, name=TestCategory63), CategoryEntity(id=Z2mrM3bUvWVHOdaeXpFA4SGScWIxpGsa, parentId=gnjTjPpbXkC5McUAp3KuLnRubtfxAOs7, name=TestCategory64), CategoryEntity(id=dN9f7Vh9kQmELifxPbZZl7hZFyfXBNSL, parentId=Z2mrM3bUvWVHOdaeXpFA4SGScWIxpGsa, name=TestCategory65), CategoryEntity(id=N7jmblgmLrVkC3Y21tCFYhwgNFL4Kqvd, parentId=dN9f7Vh9kQmELifxPbZZl7hZFyfXBNSL, name=TestCategory66), CategoryEntity(id=RrUm0uULPeD1sOQ3sMvwFl7ZlmZxKcca, parentId=N7jmblgmLrVkC3Y21tCFYhwgNFL4Kqvd, name=TestCategory67), CategoryEntity(id=d2tc5J5KcqZtbSV1Vf51tF6kL0Fi23yD, parentId=RrUm0uULPeD1sOQ3sMvwFl7ZlmZxKcca, name=TestCategory68), CategoryEntity(id=I6qJWzfsqdTSMV4qLbRBGXH2qGPH4bYI, parentId=d2tc5J5KcqZtbSV1Vf51tF6kL0Fi23yD, name=TestCategory69), CategoryEntity(id=UtkAsdCB3STMeR89djGY6qRH5U9b5G9y, parentId=I6qJWzfsqdTSMV4qLbRBGXH2qGPH4bYI, name=TestCategory70), CategoryEntity(id=3bJxx9AcSfar5tRuIQDoqFhBOQhYOplU, parentId=UtkAsdCB3STMeR89djGY6qRH5U9b5G9y, name=TestCategory71), CategoryEntity(id=uJlEmUdjnSNv4cfYLlk8lEq8YQPEJ8nV, parentId=3bJxx9AcSfar5tRuIQDoqFhBOQhYOplU, name=TestCategory72), CategoryEntity(id=5G8jw8u9EJ9gMM3OylyII6Bq3I7gWKFv, parentId=uJlEmUdjnSNv4cfYLlk8lEq8YQPEJ8nV, name=TestCategory73), CategoryEntity(id=fIqp8SHESDB7irRmbXs7Itsq3QlOvSQa, parentId=5G8jw8u9EJ9gMM3OylyII6Bq3I7gWKFv, name=TestCategory74), CategoryEntity(id=7psXXKPiOq8wtJEcY1nkkrtP6ot4Io7u, parentId=fIqp8SHESDB7irRmbXs7Itsq3QlOvSQa, name=TestCategory75), CategoryEntity(id=VpGdvXtqJgfAggYTNdTp0Yb4nQY6jYVr, parentId=7psXXKPiOq8wtJEcY1nkkrtP6ot4Io7u, name=TestCategory76), CategoryEntity(id=NLYt3qrY7gRFYIctw9MMB5ZpFb1SRKsP, parentId=VpGdvXtqJgfAggYTNdTp0Yb4nQY6jYVr, name=TestCategory77), CategoryEntity(id=JZRXDmVBLnkkhrownlJf3lI7cHPgDzT8, parentId=NLYt3qrY7gRFYIctw9MMB5ZpFb1SRKsP, name=TestCategory78), CategoryEntity(id=mBpddp2bfg68XNw94GbZqpr7Fbatlepr, parentId=JZRXDmVBLnkkhrownlJf3lI7cHPgDzT8, name=TestCategory79), CategoryEntity(id=Y0x2lXpVFs4YJmeEsFwSBHswhI4Ye36s, parentId=mBpddp2bfg68XNw94GbZqpr7Fbatlepr, name=TestCategory80), CategoryEntity(id=ISRoSBMQesk6NSwtzN4mTydKiFTFzuUg, parentId=Y0x2lXpVFs4YJmeEsFwSBHswhI4Ye36s, name=TestCategory81), CategoryEntity(id=OwdL1Jf8siEYpnQLsf7W46VSjCAKwRLB, parentId=ISRoSBMQesk6NSwtzN4mTydKiFTFzuUg, name=TestCategory82), CategoryEntity(id=pRp0bsITppFeZ0w8aOEFqSTiL6kYgJlO, parentId=OwdL1Jf8siEYpnQLsf7W46VSjCAKwRLB, name=TestCategory83), CategoryEntity(id=z6NEtQFNvyULP3FBTvAoZiL91ghb0W9K, parentId=pRp0bsITppFeZ0w8aOEFqSTiL6kYgJlO, name=TestCategory84), CategoryEntity(id=TjTHd2eUAMELQ5VqEJY7LpLUMDsbUh9N, parentId=z6NEtQFNvyULP3FBTvAoZiL91ghb0W9K, name=TestCategory85), CategoryEntity(id=PAv47ko2KurfJCI02FKk0Jr2XVcndZZb, parentId=TjTHd2eUAMELQ5VqEJY7LpLUMDsbUh9N, name=TestCategory86), CategoryEntity(id=5rCQcTWINqB6RihIkmi8bNSQlO6dkiAp, parentId=PAv47ko2KurfJCI02FKk0Jr2XVcndZZb, name=TestCategory87), CategoryEntity(id=lUnwotQR7iwbE1tQXqDgdGVRBbi5NsCO, parentId=5rCQcTWINqB6RihIkmi8bNSQlO6dkiAp, name=TestCategory88), CategoryEntity(id=Q57zXpT9rAIVuYOdRYD09yos6tmfnx2t, parentId=lUnwotQR7iwbE1tQXqDgdGVRBbi5NsCO, name=TestCategory89), CategoryEntity(id=6gTMpBLuDNJDGFyl9AhUBShZrzKlMcvh, parentId=Q57zXpT9rAIVuYOdRYD09yos6tmfnx2t, name=TestCategory90), CategoryEntity(id=phAWOUMiBnRU1YMeggjM3QCNgRTGVHrW, parentId=6gTMpBLuDNJDGFyl9AhUBShZrzKlMcvh, name=TestCategory91), CategoryEntity(id=X6aICUwllSnx1R19bTJTrjFMgkAEA5ax, parentId=phAWOUMiBnRU1YMeggjM3QCNgRTGVHrW, name=TestCategory92), CategoryEntity(id=Q3trBSqsaARIbBQiuasNgn5wP5xFNV5R, parentId=X6aICUwllSnx1R19bTJTrjFMgkAEA5ax, name=TestCategory93), CategoryEntity(id=zRGakpsDL4FKrMtBwEvOxYc0L2nXSskQ, parentId=Q3trBSqsaARIbBQiuasNgn5wP5xFNV5R, name=TestCategory94), CategoryEntity(id=AD0KcA8cxVUJdOMNK9Rl4ZUIOW1TyrOK, parentId=zRGakpsDL4FKrMtBwEvOxYc0L2nXSskQ, name=TestCategory95), CategoryEntity(id=Z5XgCE6k4zNtALTuCZA10o6fbFV87lIV, parentId=AD0KcA8cxVUJdOMNK9Rl4ZUIOW1TyrOK, name=TestCategory96), CategoryEntity(id=DuMjrGndLuUsexilmjHAXK4Baf4R7u8t, parentId=Z5XgCE6k4zNtALTuCZA10o6fbFV87lIV, name=TestCategory97), CategoryEntity(id=VLptvErGjvhHpN0dOzSqhxdCQYzYySx4, parentId=DuMjrGndLuUsexilmjHAXK4Baf4R7u8t, name=TestCategory98), CategoryEntity(id=DzKOs8FNIddrL7ZxZOZyfeeuARplQ91K, parentId=VLptvErGjvhHpN0dOzSqhxdCQYzYySx4, name=TestCategory99)]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.3.3</a> at 2023. 2. 5. 오후 4:16:32</p>
+</div>
+</div>
+</body>
+</html>
