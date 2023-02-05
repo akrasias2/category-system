@@ -4,9 +4,9 @@
 ## Architecture
 이 프로젝트는 Domain-Driven design(DDD) 을 기반으로 분리되어 Gradle 기반의 간소화 된 3가지 하위 프로젝트로 구성됩니다.
 ### [Domain](subproject/domain)
-도메인은 외부 종속적을 최소화 하여 순수한 Kotlin 코드로 비즈니스 로직을 구현하도록 하였습니다.
+도메인은 외부 종속을 최소화 하여 순수한 Kotlin 코드로 비즈니스 로직을 구현하도록 노력 하였습니다.
 ### [Infrastructure](subproject/infrastructure)
-인프라스트럭쳐에는 데이터베이스, 네트워크 및 라이브러리 같은 외부 종속성을 사용하는 도메인 인터페이스의 구현이 있는 모듈입니다.
+인프라스트럭쳐에는 데이터베이스, 네트워크 및 라이브러리 같은 외부 종속성을 사용하는 도메인 인터페이스의 구현체가 있는 모듈입니다.
 ### [Presentation](subproject/presentation)
 프리젠테이션은 도메인 기능을 네트워크 API 로 제공하며, 서비스를 실행할 수 있는 리소스가 포함되어 프로젝트에 DI 를 담당합니다.
 
