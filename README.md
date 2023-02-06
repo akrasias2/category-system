@@ -50,7 +50,13 @@ IntelliJ IDE 내 AssignmentApplication.kt class 에서 직접 UI 로 실행할 �
 
 ### 실행시 Embedded H2 DB 에 DDL 로 테이블이 생성되며, 확인을 위한 샘플 데이터 DML 이 포함되어 있습니다.
 - [DDL](./subproject/presentation/src/main/resources/schema.sql) 스키마 
-- [DML](./subproject/presentation/src/main/resources/data.sql) 데이터
+- [DML](./subproject/presentation/src/main/resources/data.sql) 데이터  
+- <details>
+  <summary>DML Sample Categories Tree</summary>
+  
+  ![그림](./dml.jpeg)
+  
+  </details>
 
 ## API
 * `GET /categories/{id}` : 특정 카테고리 조회 
