@@ -1,4 +1,4 @@
-# Kotlin Spring Server
+# Kotlin Spring Server - Category System
 이 프로젝트는 Kotlin, Gradle, Spring Boot Webflux 를 사용한 서버 사이드 프로젝트입니다.
 
 ## Architecture
