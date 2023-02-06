@@ -27,11 +27,10 @@ H2 DB, Kotlin, Spring Boot, Spring Webflux, Spring Data R2DBC, Arrow either, Gra
 
 ## 실행방법
 ```
-./gradlew bootRun;
+./gradlew :subproject:presentation:bootRun;
 ```
-JDK 17 기반으로 개발하였으며, Gradle 이 설치되어 있어야 합니다.  
-./gradlew subproject:presentation:bootRun;   
-혹은 IntelliJ IDE 내 AssignmentApplication.kt class 에서 직접 UI 로 run 할 수 있습니다. 
+JDK 17 기반으로 개발하였으며, Gradle 이 설치되어 있어야 합니다.   
+IntelliJ IDE 내 AssignmentApplication.kt class 에서 직접 UI 로 실행할 수 있습니다. 
 
 ## Unit Test 및 Integration Test
 단위 테스트, 인테그레이션 테스트, end-to-end 테스트를 구현하였습니다.
